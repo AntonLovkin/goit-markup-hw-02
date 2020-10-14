@@ -1,0 +1,121 @@
+/*
+основной цвет текста #757575
+цвет текста заголовков #212121
+цвет текста hover #2196F3
+цвет текста героя #FFFFFF
+
+основной фон #E5E5E5
+*/
+
+:root {
+  --main-text-color: #757575;
+  --second-text-color: #212121;
+  --hover-text-color: #2196f3;
+  --main-background-color: #e5e5e5;
+  --hero-title-color: #ffffff;
+  --footer-color: #ffffff;
+
+  --background-header-color: #ffffff;
+  --background-working-color: #e5e5e5;
+  --background-color-footer: #2f303a;
+}
+
+/*header*/
+.header {
+  background-color: var(--background-header-color);
+  color: var(--second-text-color);
+}
+
+/*logo*/
+.logo {
+  color: var(--second-text-color);
+}
+.logo:focus {
+  color: var(--second-text-color);
+}
+.logo-web {
+  color: var(--hover-text-color);
+}
+
+/*site-nav*/
+.list {
+  list-style: none;
+}
+.site-nav .link {
+  color: var(--second-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--hover-text-color);
+}
+.site-nav .link.current {
+  color: var(--hover-text-color);
+}
+
+/*contacts*/
+.mail,
+.phone {
+  color: var(--main-text-color);
+}
+.mail,
+.phone:hover {
+  color: var(--hover-text-color);
+}
+
+.mail,
+.phone:focus {
+  color: var(--hover-text-color);
+}
+
+/*hero*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--hero-title-color);
+}
+.button {
+  color: var(--hero-title-color);
+  background-color: var(--hover-text-color);
+}
+/*section*/
+.working {
+  background-color: var(--background-working-color);
+}
+.section-title,
+.small-title,
+.name-title {
+  color: var(--second-text-color);
+}
+.workers {
+  background-color: #f5f4fa;
+}
+.workers-list {
+  background-color: #ffffff;
+}
+/*footer*/
+.footer {
+  background-color: var(--background-color-footer);
+}
+.logo-white,
+.address {
+  color: #ffffff;
+}
+.footer-mail,
+.footer-phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*portfolio*/
+.head .link {
+  color: var(--second-text-color);
+  background-color: #f5f4fa;
+}
+.head .link:hover,
+.head .link:focus {
+  color: var(--footer-color);
+  background-color: var(--hover-text-color);
+}
+.main {
+  background-color: var(--main-background-color);
+}
