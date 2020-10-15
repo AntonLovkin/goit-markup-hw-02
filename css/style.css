@@ -53,16 +53,17 @@
 }
 
 /*contacts*/
-.mail,
+.mail {
+  color: var(--main-text-color);
+}
+.mail:hover,
+.mail:focus {
+  color: var(--hover-text-color);
+}
 .phone {
   color: var(--main-text-color);
 }
-.mail,
-.phone:hover {
-  color: var(--hover-text-color);
-}
-
-.mail,
+.phone:hover,
 .phone:focus {
   color: var(--hover-text-color);
 }
